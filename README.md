@@ -35,5 +35,5 @@ app.model({
 
 Yup! There's [`barracks-promisify-plugin`](https://github.com/myobie/barracks-promisify-plugin), which does pretty much exactly the same thing. The only differences (at the time of writing) are:
 
-- `barracks-promisify-plugin` uses ES6, which you may or may not care about (some tools don't yet support ES6 syntax without pre-transpiling, like uglify)
-- `choo-promise` gives you the option to provide your own Promise implementation (like Bluebird) if you want. 
+- `barracks-promisify-plugin` uses ES6 features, which you may or may not care about (some tools don't yet support ES6 syntax without pre-transpiling, like uglify). `choo-promise` doesn't use ES6 features.
+- `choo-promise` gives you the option to provide your own Promise implementation (like Bluebird) if you want. It will default to the native Promise.
