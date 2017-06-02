@@ -1,4 +1,6 @@
 # choo-promise [![Build Status](https://travis-ci.org/rahatarmanahmed/choo-promise.svg?branch=master)](https://travis-ci.org/rahatarmanahmed/choo-promise)
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/rahatarmanahmed/choo-promise.svg)](https://greenkeeper.io/)
 A plugin for [choo](https://github.com/yoshuawuyts/choo) (or [barracks](https://github.com/yoshuawuyts/barracks)) that allows you to return promises to end effects and subscriptions. The send function passed to effects and subscriptions is also promisified.
 
 ## Installing
