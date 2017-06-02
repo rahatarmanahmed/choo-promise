@@ -13,13 +13,13 @@
     "prepublish": "npm run test"
   },
   "devDependencies": {
-    "ava": "^0.18.1",
+    "ava": "^0.19.1",
     "barracks": "^9.3.0",
     "bluebird": "^3.4.7",
     "is-bluebird": "^1.0.2",
-    "standard": "^8.5.0"
+    "standard": "^10.0.2"
   },
   "dependencies": {
-    "pify": "^2.3.0"
+    "pify": "^3.0.0"
   }
 }
